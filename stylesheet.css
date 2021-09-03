@@ -1,0 +1,129 @@
+body{
+    background-image: url("background.png");
+    background-size: auto;   
+}
+
+.all_images {
+    max-width: 100%;
+}
+
+img:hover {
+    transform: scaleX(-1);
+}
+
+.intro{
+    font-size: 35px;
+    display: inline-block;
+    text-align: center;
+    color: rgb(219, 16, 238);
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(0, 255, 255, 0.164);
+    /* making the margin */
+    margin-top: 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.fire_intro_one{
+    margin-top: 0px;
+}
+.fire_intro_two{
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.nice_image_one{
+    margin-top: 0px;
+    margin-left: 50px;
+}
+.nice_image_two{
+    margin-top: 0px;
+    margin-left: 50px;
+}
+.p_tag_intro{
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Allison', cursive;
+    margin-top: 0px;
+    margin-left: 50px; 
+    color: red;
+}
+
+.writing_div{
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgba(184, 135, 11, 0.281);
+    border: 2px dashed blue;
+    border-radius: 20px;
+}
+
+.writing_div_2{
+    padding: 5px;
+    background-color: rgba(81, 20, 224, 0.178);
+    border: 2px dashed blue;
+    border-radius: 20px; 
+}
+
+.writing_div_3{
+    background-color: rgba(224, 20, 20, 0.26);
+    border: 2px dashed blue;
+    border-radius: 20px; 
+}
+
+.photo_part{
+    background-image: url("fourthphoto.jpg");
+}
+
+.first_scale{
+    opacity: 0.9;
+    border-radius: 50%;
+}
+
+.second_scale{
+    opacity: 0.9;
+}
+
+.huerotate {
+    opacity: 0.9;
+    filter: hue-rotate(180deg);
+}
+
+.h1_sport{
+    padding: 5px;
+    font-size: 35px;
+    font-family: 'Aref Ruqaa', serif;
+    display: inline-block;
+    text-align: center;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+.nice_font_tr_one{
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.nice_font_tr_two{
+    font-family: 'Vibes', cursive;
+}
+
+.sport_table{
+    color: chartreuse;
+    padding: 30px;
+    
+    font-size: 40px;
+}
+
+.inside_td {
+    padding: 10px;
+}
+
+.submiting{
+    padding: 5px;
+    color: cyan;
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-left: 300px;;
+    background-image: url(fovephoto.jpg);
+}
